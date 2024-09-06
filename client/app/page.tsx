@@ -46,12 +46,15 @@ const Dashboard = () => {
                 borderWidth: 1
               }]
             }}
-            options={{ responsive: true }}
+            options={{ 
+                  responsive: true, 
+                  maintainAspectRatio: false
+            }}
           />
         )}</div>
 
         {/* Line Chart */}
-        <div>{lineData && (
+        <div className="w-1/2 md:w-1/3 lg:w-1/4 h-64 mx-auto">{lineData && (
           <Line
             data={{
               labels: lineData.labels,
@@ -62,12 +65,15 @@ const Dashboard = () => {
                 borderColor: '#742774'
               }]
             }}
-            options={{ responsive: true }}
+            options={{ 
+                  responsive: true, 
+                  maintainAspectRatio: false
+            }}
           />
         )}</div>
 
         {/* Pie Chart */}
-        <div>{pieData && (
+        <div className="w-1/2 md:w-1/3 lg:w-1/4 h-64 mx-auto">{pieData && (
           <Pie
             data={{
               labels: pieData.labels,
@@ -76,7 +82,10 @@ const Dashboard = () => {
                 backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
               }]
             }}
-            options={{ responsive: true }}
+            options={{ 
+                  responsive: true, 
+                  maintainAspectRatio: false
+            }}
           />
         )}</div>
 
