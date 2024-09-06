@@ -1,5 +1,7 @@
 # Blockhouse Take-Home Assignment: Next.js Application with Django API Integration
 
+Github Link for the Assignment : [Here](https://github.com/Sweetdevil144/blockhouse_takehome)
+
 This is a web application built using Next.js for the frontend and Django for the backend. The dashboard displays various charts (Bar, Line, Pie, and Candlestick) using data fetched from the Django API.
 
 ## Table of Contents
