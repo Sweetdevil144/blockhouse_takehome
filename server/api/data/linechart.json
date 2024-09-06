@@ -1,17 +1,4 @@
 {
-  "labels": [
-    "jan",
-    "feb",
-    "mar",
-    "apr",
-    "may",
-    "jun",
-    "jul",
-    "aug",
-    "sep",
-    "oct",
-    "nov",
-    "dec"
-  ],
-  "data": [20, 30, 12, 45, 33, 25, 76, 23, 11, 82, 23, 42]
+  "labels": ["January", "February", "March"],
+  "data": [10, 20, 30]
 }
