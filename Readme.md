@@ -46,10 +46,10 @@ The project is structured in two main parts:
 
 3. **Run the Django development server:**
    ```bash
-   python manage.py runserver
+   python3 manage.py runserver 8080
    ```
 
-   The server will start at `http://localhost:8000/`.
+   The server will start at `http://localhost:8080/`.
 
 ### Frontend Setup (Next.js)
 
